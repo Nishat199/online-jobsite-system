@@ -1,0 +1,48 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+body{background:red;}	
+.container {
+    width: 90%;
+}
+.col-6.tablet_3 {
+    width: 30%;
+}
+
+.col-6.tablet_9 {
+    width: 70%;
+}
+
+}
+
+@media (max-width: 767px) {
+body{background:black;}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+.col-6 {
+    width: 100%;
+}
+.header_content {
+    float: none;
+    text-align: center;
+}
+.body_portion h1 {
+    font-size: 34px;
+    color: pink;
+}
+.menu ul li a {
+    font-size: 14px;
+    padding: 10px 5px;
+}
+section.body_section {
+    min-height: 300px;
+}
+.col-4 {
+    width: 100%;
+    float: none;
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+body{background:blue;}	
+}

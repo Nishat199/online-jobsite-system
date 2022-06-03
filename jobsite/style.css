@@ -1,0 +1,240 @@
+body {
+    font-size: 18px;
+    font-family: 'Anton', sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.menu {
+    background: #92F4E2;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline-block;
+    border-right: 1px solid #8b8b8b;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    display: block;
+    transition: .5s;
+}
+
+.menu ul li a:hover {
+    background: #fff;
+    color: #000;
+}
+
+.banner {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer {
+    background-color: #92F4E2;
+    text-align: center;
+    padding: 10px;
+}
+
+.search {
+    text-align: center;
+    padding: 10px;
+
+}
+
+.search input {
+    padding: 10px;
+}
+
+.search input[type="submit"] {
+    background: #92F4E2;
+    border: none;
+    cursor: pointer;
+    padding: 12px 25px;
+    color: black;
+}
+
+.search input[type="submit"]:hover {
+    background: white;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.reg-form {
+    width: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.input-group {
+    display: flex;
+}
+
+.input-group .user-label {
+    width: 150px;
+    text-align: left;
+
+}
+
+.input-group .user-input {
+    width: 300px;
+    text-align: left;
+}
+
+.input-group .user-input input {
+    padding: 4px;
+    width: 100%;
+
+}
+
+.input-group .user-input textarea {
+    padding: 4px;
+    width: 100%;
+
+}
+
+.user-input.gender input {
+    width: 20px;
+}
+
+.user-input.gender label {
+    margin-right: 20px;
+}
+
+.user-input.gender {
+    display: flex;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.box input {
+    width: 140px;
+    height: 40px;
+
+}
+
+.otp-area {
+    width: 300px;
+    margin: 0 auto;
+    display: none;
+}
+
+.coundown {
+    text-align: center;
+    padding: 20px;
+}
+
+#resend {
+    cursor: pointer;
+    text-decoration: underline;
+    color: -webkit-link;
+}
+
+button.button.button1 {
+    background: #92F4E2;
+    border: none;
+    cursor: pointer;
+    padding: 12px 25px;
+    color: black;
+}
+
+.col-12 {
+    text-align: center;
+}
+
+input[type="submit"] {
+    background: #92F4E2;
+    border: none;
+    cursor: pointer;
+    padding: 12px 25px;
+    color: black;
+}
+
+form {
+    text-align: center;
+}
+
+.body_portion {
+    width: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 40px 0;
+}
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+  }
+  
+  #snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  
+  @-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
